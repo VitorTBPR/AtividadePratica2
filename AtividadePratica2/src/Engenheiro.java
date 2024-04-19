@@ -1,8 +1,17 @@
 public class Engenheiro extends Funcionario{
-    public Engenheiro(String nome, String cpf, String dtNascimento) {
-        super(nome, cpf, dtNascimento);
+    String crea;
+
+    public String getCrea() {
+        return crea;
     }
 
-    String crea;
+    public void setCrea(String crea) {
+        this.crea = crea;
+    }
+
+    public Engenheiro(String nome, String cpf, String dtNascimento, String crea) {
+        super(nome, cpf, dtNascimento);
+        this.crea = crea;
+    }
 
 }

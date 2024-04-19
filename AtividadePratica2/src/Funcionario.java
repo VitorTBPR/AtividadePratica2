@@ -27,6 +27,6 @@ public class Funcionario {
         this.cpf = cpf;
         this.dtNascimento = dtNascimento;
     }
-
+    
     
 }
